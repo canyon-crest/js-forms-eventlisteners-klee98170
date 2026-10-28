@@ -92,9 +92,8 @@ const feeType = document.getElementById("serviceSelect").value
     else if(feeType="takeout") {
         fee = 1.5
     }
-    else (feeType = "delivery" ) { 
-        fee = 3
-     }
+    else 
+    fee=3
 //   d) Calculate total: size + toppings + service fee
  const total = size + count + fee;
 
