@@ -74,7 +74,7 @@ function orderPizza(){
 let toppingPrice = 0;
 let checkboxes = document.getElementsByName("cb"
 );
-for(leti=0; i<checkboxes.length; i++) {
+for(let i=0; i<checkboxes.length; i++) {
     if(checkboxes[i].checked){
         toppingPrice += .5;
     }
